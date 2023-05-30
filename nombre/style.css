@@ -56,16 +56,17 @@ input {
     border: none;
     background: none;
     outline: none;
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
     font-size: 1rem;
     border-bottom: 2px solid #58933c;
     color: white;
     font-weight: 500;
+    transition: padding 300ms;
 }
 
 input:focus {
     border-bottom: 2px solid #1ed760ff;
-    padding: 0.4rem 1.35rem;
+    padding: 0.4rem 1rem;
     transition: padding 300ms;
 }
 
