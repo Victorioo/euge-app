@@ -10,6 +10,6 @@ function guardarValor() {
     console.log(`Guardado completo del nombre: ${nombre}`)
 
     if (nombre != null && nombre != ""){
-        window.location.href = "land.html";
+        window.location.href = "./land.html";
     }
 }
