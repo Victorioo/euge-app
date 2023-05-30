@@ -13,7 +13,7 @@ body {
 }
 
 .nav-container {
-    background-color: white;
+    background-color: rgb(37, 99, 59);
     display: flex;
     height: 5rem;
     align-items: center;
@@ -61,3 +61,22 @@ svg {
     font-weight: 500;
     font-size: 1.5rem;
 }
+
+.welcome {
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items:  center;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: #1ed760ff;
+    font-weight: 500;
+}   
