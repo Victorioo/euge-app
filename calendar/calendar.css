@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins'; 
+}
+
+
+body{
+    background-color: #1a1a1aff;
+}
+
+/* estilos menú */
+
+
+/* estilos para la parte de la tabla para abajo */
+.welcome {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin: 1rem 0;
+    color: white;
+}
+
+.welcome h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.welcome h2 {
+    color: #1ed760ff;
+}
+
+.images {
+    display: flex;
+    justify-content: center;align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.table-header{
+    color: white;
+    background-color: #262626ff;
+    padding: .5rem .5rem;
+}
+
+#lunes,#martes,#miercoles {
+    opacity: 0.2;
+}
+
+.semana {
+    padding: .5rem .1rem;
+}
+
+td{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    background-color: rgb(80, 79, 79);
+    padding: .5rem .3rem;
+}
+
+.green-bg {
+    background-color: green;
+}
+  
+.red-bg {
+    background-color: rgb(161, 45, 45);
+}
+  
+.grey-bg {
+    background-color: rgb(80, 79, 79);
+}
+
+.redirect {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect button {
+    border: none;
+    background-color: #262626ff;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+
+.redirect button a {
+    color: white;
+    text-decoration: none;
+}
+
+.redirect img {
+    margin-top: .5rem;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario</title>
+  <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+  <div class="welcome">
+   <h1>Bienvenido a tu calendario</h1>
+   <h2 id="nombre"></h2>
+  </div>
+  <table>
+    <thead>
+      <tr>
+       <!-- <th class="table-header semana" >S</th> -->
+       <th class="table-header">Lun</th>
+       <th class="table-header">Mar</th>
+       <th class="table-header">Mier</th>
+       <th class="table-header">Jue</th>
+       <th class="table-header">Vier</th>
+       <th class="table-header">Sab</th>
+       <th class="table-header">Dom</th>
+     </tr>
+    </thead>
+    <tbody>
+      <!-- <h2 style="color: white; margin-left: 2rem;">Junio</h3> -->
+      <tr>
+        <!-- <td class="table-date semana">1</td> -->
+        <td class="table-date" onclick="entrenando(this)" id="lunes">29</td>
+        <td class="table-date" onclick="entrenando(this)" id="martes">30</td>
+        <td class="table-date" onclick="entrenando(this)" id="miercoles">31</td>
+        <td class="table-date" onclick="entrenando(this)" id="jueves">1</td>
+        <td class="table-date" onclick="entrenando(this)" id="viernes">2</td>
+        <td class="table-date" onclick="entrenando(this)" id="sabado">3</td>
+        <td class="table-date" onclick="entrenando(this)" id="domingo">4</td>
+      </tr>
+      <tr>
+        <!-- <td class="table-date semana">2</td> -->
+        <td class="table-date" onclick="entrenando(this)" id="lunes-first">5</td>
+        <td class="table-date" onclick="entrenando(this)" id="martes-first">6</td>
+        <td class="table-date" onclick="entrenando(this)" id="miercoles-first">7</td>
+        <td class="table-date" onclick="entrenando(this)" id="jueves-first">8</td>
+        <td class="table-date" onclick="entrenando(this)" id="viernes-first">9</td>
+        <td class="table-date" onclick="entrenando(this)" id="sabado-first">10</td>
+        <td class="table-date" onclick="entrenando(this)" id="domingo-first">11</td>
+      </tr>
+      <tr>
+        <!-- <td class="table-date semana">3</td> -->
+        <td class="table-date" onclick="entrenando(this)" id="lunes-second">12</td>
+        <td class="table-date" onclick="entrenando(this)" id="martes-second">13</td>
+        <td class="table-date" onclick="entrenando(this)" id="miercoles-second">14</td>
+        <td class="table-date" onclick="entrenando(this)" id="jueves-second">15</td>
+        <td class="table-date" onclick="entrenando(this)" id="viernes-second">16</td>
+        <td class="table-date" onclick="entrenando(this)" id="sabado-second">17</td>
+        <td class="table-date" onclick="entrenando(this)" id="domingo-second">18</td>
+      </tr>
+      <tr>
+        <!-- <td class="table-date semana">4</td> -->
+        <td class="table-date" onclick="entrenando(this)" id="lunes-third">19</td>
+        <td class="table-date" onclick="entrenando(this)" id="martes-third">20</td>
+        <td class="table-date" onclick="entrenando(this)" id="miercoles-third">21</td>
+        <td class="table-date" onclick="entrenando(this)" id="jueves-third">22</td>
+        <td class="table-date" onclick="entrenando(this)" id="viernes-third">23</td>
+        <td class="table-date" onclick="entrenando(this)" id="sabado-third">24</td>
+        <td class="table-date" onclick="entrenando(this)" id="domingo-third">25</td>
+      </tr>
+      <tr>
+        <!-- <td class="table-date semana">4</td> -->
+        <td class="table-date" onclick="entrenando(this)" id="lunes-fourt">26</td>
+        <td class="table-date" onclick="entrenando(this)" id="martes-fourt">27</td>
+        <td class="table-date" onclick="entrenando(this)" id="miercoles-fourt">28</td>
+        <td class="table-date" onclick="entrenando(this)" id="jueves-fourt">29</td>
+        <td class="table-date" onclick="entrenando(this)" id="viernes-fourt">30</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="redirect">
+    <button><a href="../index.html">Entrenar</a></button>
+  </div>
+  <script src="calendar.js"></script>
+</body>
+</html>
