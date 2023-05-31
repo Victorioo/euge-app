@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins';
     list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: white;
 }
 
 body {
@@ -79,4 +84,4 @@ h1 {
 h2 {
     color: #1ed760ff;
     font-weight: 500;
-}   
+}

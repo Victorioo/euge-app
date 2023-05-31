@@ -52,7 +52,7 @@ h1 {
 }
 
 
-input {
+#nombre {
     border: none;
     background: none;
     outline: none;
@@ -62,20 +62,31 @@ input {
     color: white;
     font-weight: 500;
     transition: padding 300ms;
+    margin-bottom: 2rem;
 }
 
-input:focus {
+#nombre:focus {
     border-bottom: 2px solid #1ed760ff;
     padding: 0.4rem 1rem;
     transition: padding 300ms;
 }
+
+.genre {
+    color: white;
+    margin-top: 1rem; 
+}
+
+.genero {
+    margin-top: 1rem 0;
+}
+
 
 button { 
     border: none;
     background: none;
     margin: 2rem 0 0rem 0;
     background-color: #161616ff;
-    padding: .5rem 1rem;
+    padding: .7rem 3rem;
     border-radius: .5rem;
 }
 
