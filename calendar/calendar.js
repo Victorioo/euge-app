@@ -1,10 +1,21 @@
-nombreBienvenida = document.getElementById("nombre")
+// Bienvenida en el welcome del calendario
 
-nombreLocal = localStorage.getItem("nombre")
-
+let nombreBienvenida = document.getElementById("nombre")
+let nombreLocal = localStorage.getItem("nombre")
 console.log(nombreLocal)
 
 nombreBienvenida.textContent = `${nombreLocal}`
+
+let articulo = document.getElementById("articulo");
+let articuloLocal = localStorage.getItem("genero")
+
+if (articuloLocal == "femenino"){
+    articulo.textContent = "a"
+} else if (articuloLocal == "masculino") {
+    articulo.textContent = "o"
+} else {
+    articulo.textContent = "@"
+}
 
 // Función para obtener el estado de las celdas desde el almacenamiento local
 function obtenerEstadoCeldas() {
